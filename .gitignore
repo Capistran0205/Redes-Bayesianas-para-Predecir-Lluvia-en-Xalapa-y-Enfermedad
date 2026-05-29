@@ -1,0 +1,34 @@
+# ── Secretos / configuración local ──────────────────────────
+.env
+.env.local
+*.env.local
+
+# ── Entorno virtual de Python ───────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Imágenes ───────────────────────────────
+*.png
+
+# ── Bytecode / caches de Python ─────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Distribución / build ────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ── IDE / editores ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs / temporales ───────────────────────────────────────
+*.log
+*.tmp
